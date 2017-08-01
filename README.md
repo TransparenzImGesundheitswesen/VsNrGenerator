@@ -1,2 +1,4 @@
 # VsNrGenerator
-Generiert alle möglichen eGK-Nummern
+Generiert alle möglichen eGK-Nummern.
+
+MIT-Lizenz
