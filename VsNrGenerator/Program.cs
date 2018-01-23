@@ -23,7 +23,7 @@ namespace VsNrGenerator
                     {
                         string erg = string.Format("{0}{1:00000000}{2}", c, l, PrüfsummeBerechnen(i, l));
 
-                        if (!numbers.Any(s => erg.Contains(s)))
+                        //if (!numbers.Any(s => erg.Contains(s)))
                             datei.WriteLine(erg);
 
                         if (l % 1000000 == 0)
